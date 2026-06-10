@@ -16,3 +16,12 @@ body {
 
     text-align: center;
 }
+body {
+    background-size: 200% 200%;
+    animation: bgMove 10s infinite alternate;
+}
+
+@keyframes bgMove {
+    from { background-position: left; }
+    to { background-position: right; }
+}
