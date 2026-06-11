@@ -50,5 +50,15 @@
     <footer>
         <p>&copy; 2026 EpicRobbie5. Alle rechten voorbehouden.</p>
     </footer>
+    <script>
+    function logout() {
+
+        localStorage.removeItem(
+            "loggedIn"
+        );
+
+        location.href = "login.html";
+    }
+    </script>
 </body>
 </html>
