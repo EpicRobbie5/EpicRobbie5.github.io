@@ -105,6 +105,7 @@ Consider adding:
 - [ ] Additional pages for hobbies and interests
 - [ ] Image galleries
 - [ ] Social media integration
+- [ ] Different languages
 
 ## 🛠️ Technologies Used
 
