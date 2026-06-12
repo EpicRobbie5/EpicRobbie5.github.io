@@ -189,6 +189,11 @@ body {
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
+h1::after {
+    content: " ✈️";
+    animation: fly 2s infinite alternate;
+}
+
 /* ===== CARDS ===== */
 .card {
     background: #f8f9ff;
@@ -389,6 +394,14 @@ footer p {
     }
 }
 
+@keyframes fly {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     .topnav {
