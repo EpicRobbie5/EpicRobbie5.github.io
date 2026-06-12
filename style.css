@@ -30,7 +30,7 @@ body {
     border-radius: 20px;
 
     width: 350px;
-    text-align: right;
+    text-align: center;
 
     box-shadow:
         0 0 20px rgba(0, 51, 255, 0.5),
@@ -39,6 +39,8 @@ body {
 
 .login-box h1 {
     margin-bottom: 30px;
+    color: white;
+    animation: fadeInDown 0.8s ease;
 }
 
 .login-box input {
