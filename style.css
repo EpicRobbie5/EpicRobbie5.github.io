@@ -372,7 +372,7 @@ footer p {
 /* ===== BACK TO TOP ===== */
 .backTop {
     position: fixed;
-    left: 20px;
+    left: 50px;
     bottom: 100px;
 }
 
