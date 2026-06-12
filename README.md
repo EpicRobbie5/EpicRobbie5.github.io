@@ -12,17 +12,27 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 - **Contact Page** - Includes contact information and a contact form
 - **Fast Performance** - Optimized CSS with minimal dependencies
 - **Accessible** - Clean HTML5 structure with semantic markup
+- **Security** - The password is 'wright1903'
 
 ## 📁 Project Structure
 
-```
+```t
 EpicRobbie5.github.io/
 ├── index.html           # Homepage
-├── vliegtuigen.html     # Aviation interests page
+├── vliegtuigen.html     # Aviation overview page
+├── boeing.html          # Boeing aircraft information
+├── airbus.html          # Airbus aircraft information
+├── concorde.html        # Concorde page
+├── wrightFlyer.html     # Wright Flyer page
+├── comparison.html      # Aircraft comparison page
+├── helikopters.html     # Helicopter information
 ├── over-mij.html        # About me page
 ├── contact.html         # Contact page
+├── login.html           # Login screen
+├── send.html            # Form submission page
 ├── style.css            # Main stylesheet
-└── README.md            # This file
+├── SECURITY.md          # Security file
+└── README.md            # Project documentation
 ```
 
 ## 🌐 Pages
