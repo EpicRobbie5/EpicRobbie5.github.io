@@ -455,6 +455,23 @@ footer p {
         transform: translateX(10px);
     }
 }
+.plane {
+    position: fixed;
+    font-size: 3rem;
+    animation: fly 12s linear infinite;
+}
+
+@keyframes fly {
+    from {
+        left: -100px;
+        top: 20%;
+    }
+
+    to {
+        left: calc(100% + 100px);
+        top: 10%;
+    }
+}
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     .topnav {
