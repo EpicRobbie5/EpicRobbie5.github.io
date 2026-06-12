@@ -7,7 +7,7 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 ## 📋 Features
 
 - **Responsive Design** - Fully mobile-friendly on phones, tablets, and desktops
-- **Multi-Page Navigation** - Seamless navigation between Home, Aviation, About, and Contact pages
+- **Multi-Page Navigation** - Seamless navigation between Home, Aviation, Helicopters, About, and Contact pages
 - **Modern Styling** - Beautiful gradient backgrounds, smooth animations, and professional cards
 - **Contact Page** - Includes contact information and a contact form
 - **Fast Performance** - Optimized CSS with minimal dependencies
@@ -16,7 +16,7 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 
 ## 📁 Project Structure
 
-```t
+```
 EpicRobbie5.github.io/
 ├── index.html           # Homepage
 ├── vliegtuigen.html     # Aviation overview page
@@ -116,11 +116,13 @@ Consider adding:
 - [ ] Image galleries
 - [ ] Social media integration
 - [ ] Different languages
+- [ ] Helicopter Page
 
 ## 🛠️ Technologies Used
 
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern styling with animations and gradients
+- **JavaScript** - Login coding
 - **GitHub Pages** - Free web hosting
 
 ## 📄 License
