@@ -373,7 +373,7 @@ footer p {
 .backTop {
     position: fixed;
     left: 20px;
-    bottom: 20%;
+    bottom: 100px;
 }
 
 .backTop:hover {
