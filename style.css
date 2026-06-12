@@ -429,6 +429,39 @@ footer p {
     background: rgba(255,255,255,0.25);
     box-shadow: 0 0 15px rgba(255,255,255,0.3);
 }
+/* ===== SETTINGS ===== */
+.setting {
+    margin: 20px 0;
+}
+
+.setting input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+
+    border: none;
+    border-radius: 8px;
+}
+
+.setting button {
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dark {
+    background: #000022 !important;
+    color: white;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
 /* ===== ANIMATIONS ===== */
 @keyframes fadeInDown {
     from {
