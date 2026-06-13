@@ -15,7 +15,6 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 - **Security** - The password is 'wright1903'
 
 ## 📁 Project Structure
-
 ```
 EpicRobbie5.github.io/
 ├── index.html           # Homepage
@@ -34,7 +33,6 @@ EpicRobbie5.github.io/
 ├── SECURITY.md          # Security file
 └── README.md            # Project documentation
 ```
-
 ## 🌐 Pages
 
 ### Home (`index.html`)
@@ -116,7 +114,7 @@ Consider adding:
 - [ ] Image galleries
 - [ ] Social media integration
 - [ ] Different languages
-- [ ] Helicopter Page
+- [x] Helicopter Page
 
 ## 🛠️ Technologies Used
 
