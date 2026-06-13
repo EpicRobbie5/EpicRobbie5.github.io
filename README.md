@@ -29,7 +29,9 @@ EpicRobbie5.github.io/
 ├── contact.html         # Contact page
 ├── login.html           # Login screen
 ├── send.html            # Form submission page
+├── settings.html        # Settings
 ├── style.css            # Main stylesheet
+├── favicon.png          # Favicon image
 ├── SECURITY.md          # Security file
 └── README.md            # Project documentation
 ```
@@ -73,9 +75,9 @@ Contact page featuring:
 ## 🔧 Customization
 
 ### Update Your Email
-In `contact.html`, replace the placeholder email:
+In `contact.html`, replace the email:
 ```html
-<a href="mailto:contact@example.com">contact@example.com</a>
+<a href="mailto:robbe.schoenmaekers@student.rhizo.be">robbe.schoenmaekers@student.rhizo.be</a>
 ```
 with your actual email address.
 
@@ -99,7 +101,7 @@ This site is automatically deployed to GitHub Pages. Any changes pushed to the `
 
 ### To Deploy Locally
 1. Clone the repository
-2. Open `index.html` in your web browser
+2. Go to `epicrobbie5.github.com` in your web browser
 3. No build process required!
 
 ## 📝 Future Enhancements
@@ -109,7 +111,7 @@ Consider adding:
 - [ ] Backend service to handle contact form submissions
 - [ ] Blog section with articles
 - [ ] Project showcase section
-- [ ] Dark mode toggle
+- [ ] Dark mode toggle (Working...)
 - [ ] Additional pages for hobbies and interests
 - [ ] Image galleries
 - [ ] Social media integration
