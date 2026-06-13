@@ -10,6 +10,11 @@
 
     <div class="login-box">
         <h1>✈️ Inloggen</h1>
+        <input
+            id="username"
+            type="username"
+            placeholder="Naam"
+        >
 
         <input
             id="password"
@@ -24,11 +29,13 @@
 
     <script>
     function login() {
+        const username =
+            document.getElementById("username").value
 
         const password =
             document.getElementById("password").value;
 
-        if(password === "wright1903") {
+        if(username === "Robbie" && password === "wright1903") {
 
             localStorage.setItem(
                 "loggedIn",
