@@ -12,7 +12,7 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 - **Contact Page** - Includes contact information and a contact form
 - **Fast Performance** - Optimized CSS with minimal dependencies
 - **Accessible** - Clean HTML5 structure with semantic markup
-- **Security** - The name is 'Robbie' and the password is 'wright1903'
+- **Security** - The name is 'Plane' and the password is 'concorde1969'
 
 ## 📁 Project Structure
 ```
