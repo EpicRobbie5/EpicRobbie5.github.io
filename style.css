@@ -114,7 +114,7 @@ body {
 }
 .logoutBtn {
     right: 20px;
-
+}
 /* ===== CONTAINER ===== */
 .container {
     flex: 1;
@@ -395,25 +395,24 @@ footer p {
     font-size: 8rem;
     margin: 0;
     text-shadow: 0 0 20px rgba(255,255,255,0.4);
-    text-color: white;
+    color: white;
 }
 
 .error-container h2 {
     margin-top: 10px;
     font-size: 2rem;
-    text-color: white;
+    color: white;
 }
 
 .error-container p {
     font-size: 1.2rem;
     margin: 20px 0 30px;
-    text-color: white;
+    color: white;
 }
 
 .home-button {
     display: inline-block;
     padding: 15px 30px;
-    text-color: white;
     background: rgba(255,255,255,0.15);
     color: white;
 
