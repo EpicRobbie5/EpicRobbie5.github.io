@@ -29,7 +29,9 @@
     </div>
 
     <p>Score: <span id="score">0</span></p>
+    <p>Highscore: <span id="highscore"></span></p>
     <script>
+        let gameRunning = true;
         const plane = document.getElementById("plane");
 
         let planeX = 280;
@@ -37,11 +39,11 @@
         document.addEventListener("keydown", event => {
 
             if (event.key === "ArrowLeft") {
-                planeX -= 10;
+                planeX = Math.max(0, planeX - 25);
             }
 
             if (event.key === "ArrowRight") {
-                planeX += 10;
+                planeX = Math.min(540, planeX + 25);
             }
 
             plane.style.left = planeX + "px";
@@ -53,10 +55,10 @@
             cloud.textContent = "☁️";
 
             cloud.style.position = "absolute";
-            cloud.style.fontSize = "40px";
+            cloud.style.fontSize = "100px";
 
             cloud.style.left =
-                Math.random() * 550 + "px";
+                Math.random() * 500 + "px";
 
             cloud.style.top = "0px";
 
@@ -84,8 +86,17 @@
                     planeRect.top < cloudRect.bottom &&
                     planeRect.bottom > cloudRect.top
                 ) {
-                   alert("💥 Game Over!\nScore: " + score);
-                    window.location.href = "game.html";
+                    gameRunning = false;
+
+                    alert("💥 Game Over!\nScore: " + score);
+                    let highscore =
+                        localStorage.getItem("highscore") || 0;
+
+                    if (score > highscore) {
+                        localStorage.setItem("highscore", score);
+}
+
+                    location.reload();
                 }
 
             }, 20);
