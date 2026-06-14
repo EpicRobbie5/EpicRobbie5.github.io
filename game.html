@@ -42,7 +42,7 @@ const highscoreElement = document.getElementById("highscore");
 let planeX = 260;
 let score = 0;
 let gameRunning = true;
-let cloudSpeed = 5;
+let cloudSpeed = 1;
 
 const highscore = localStorage.getItem("highscore") || 0;
 highscoreElement.textContent = highscore;
@@ -90,9 +90,9 @@ function createCloud() {
     cloud.textContent = "☁️";
 
     cloud.style.position = "absolute";
-    cloud.style.fontSize = "80px";
+    cloud.style.fontSize = "50px";
     cloud.style.left = Math.random() * 500 + "px";
-    cloud.style.top = "-80px";
+    cloud.style.top = "-50px";
 
     game.appendChild(cloud);
 
@@ -140,7 +140,7 @@ setInterval(() => {
         cloudSpeed += 0.5;
     }
 
-}, 1000);
+}, 5000);
 
 function spawnClouds() {
 
