@@ -498,6 +498,61 @@ footer p {
     opacity: 0.2;
     pointer-events: none;
 }
+/* ===== MENU ===== */
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn {
+    background: #003399;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: #0044cc;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    right: 0;
+
+    min-width: 180px;
+
+    background: #001144;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    display: block;
+
+    padding: 12px;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background: #003399;
+}
+
+.dropdown-content.show {
+    display: block;
+}
 /* ===== ANIMATIONS ===== */
 @keyframes fadeInDown {
     from {
