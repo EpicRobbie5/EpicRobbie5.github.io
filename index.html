@@ -51,7 +51,6 @@
     </div>
     <footer>
         <p>&copy; 2026 EpicRobbie5. Alle rechten voorbehouden.</p>
-        <p>👀 Bezoekers: <span id="visits"></span></p>
         <p>Laatst bijgewerkt: <span id="lastUpdate"></span></p>
     </footer>
     <script>
@@ -75,12 +74,6 @@
                 hour: "2-digit",
                 minute: "2-digit"
             });
-    </script>
-    <script>
-        let visits = localStorage.getItem("visits") || 0;
-        visits++;
-        localStorage.setItem("visits", visits);
-        document.getElementById("visits").textContent = visits;
     </script>
 </body>
 </html>
