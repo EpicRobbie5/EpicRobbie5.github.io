@@ -49,7 +49,7 @@ A showcase of aviation interests featuring information about famous aircraft and
 - Concorde
 - Wright Flyer
 
-### Helicopters (`helikopter.html`)
+### Helikopters (`helikopter.html`)
 A non-finshed project about helicopters.
 - Bell UH-1 Iroquois
 - Boeing CH-47 Chinook
@@ -92,11 +92,11 @@ A little setting screen.
 ## 🔧 Customization
 
 ### Update Your Email
-In `contact.html`, replace the email:
+In `contact.html`, replace my email:
 ```html
 <a href="mailto:robbe.schoenmaekers@student.rhizo.be">robbe.schoenmaekers@student.rhizo.be</a>
 ```
-with your actual email address.
+with your email.
 
 ### Modify Content
 All HTML pages are structured with clear sections that are easy to edit. Simply update the text between HTML tags to customize the content.
@@ -128,7 +128,7 @@ Consider adding:
 - [ ] Backend service to handle contact form submissions
 - [ ] Blog section with articles
 - [ ] Project showcase section
-- [ ] Dark mode toggle (Working...)
+- [ ] Dark mode toggle (Working on it...)
 - [ ] Additional pages for hobbies and interests
 - [ ] Image galleries
 - [ ] Social media integration
