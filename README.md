@@ -159,7 +159,7 @@ This project is open source and available for personal use.
 **EpicRobbie5** - A web development enthusiast passionate about creating modern, responsive websites and learning new technologies in web design.
 
 ## Project backup
-At least updated monthly
+At least updated monthly:
 [website_backup.txt](https://github.com/user-attachments/files/29005670/website_backup.txt)
 
 ---
