@@ -1,5 +1,5 @@
 # Roadmap
-## What I want to do
+## Before 1st of januari 2027
 - [ ] Setting screen
   - [ ] Dark mode toggle
   - [ ] Choose your language
@@ -9,8 +9,9 @@
   - [ ] for planes
   - [ ] for helicopters
 - [ ] Sidebar
+- [ ] Add favicon to EVERY site
 - [ ] ...
-## What you could do
-- [ ] Upgrade the game
-- [ ] Better information about planes and helicopters
-- [ ] Upgrade pages
+## After 1st of januari 2027
+- [ ] Better game
+- [ ] Maybe better desing
+- [ ] ...
