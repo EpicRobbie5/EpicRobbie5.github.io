@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EpicRobbie Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🛩️ EpicRobbie Dashboard</h1>
+
+    <div class="card">
+        <h2>🕒 Tijd</h2>
+        <p id="clock"></p>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Snelle Links</h2>
+        <a href="https://github.com">GitHub</a><br>
+        <a href="https://flightradar24.com">Flightradar24</a>
+    </div>
+
+    <script>
+        function updateClock() {
+            document.getElementById("clock").textContent =
+                new Date().toLocaleTimeString();
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+
+</body>
+</html>
