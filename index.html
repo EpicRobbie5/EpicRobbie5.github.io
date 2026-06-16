@@ -23,7 +23,16 @@
         <a href="over-mij.html">Over mij</a>
         <a href="contact.html">Contact</a>
         <a href="game.html">Game</a>
-        <a class="logoutBtn" href="#" onclick="logout()">Uitloggen</a>
+        <div class="user-menu">
+            <button class="menu-btn" onclick="toggleMenu()">
+                👤 Account
+            </button>
+
+            <div id="dropdownMenu" class="dropdown-content">
+                <a href="dashboard.html">📊 Dashboard</a>
+                <a href="#" onclick="logout()">🚪 Uitloggen</a>
+            </div>
+        </div>
     </div>
 
     <div class="container">
