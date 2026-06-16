@@ -373,20 +373,6 @@ footer p {
     margin: 0;
     color: #bbb;
 }
-
-/* ===== BACK TO TOP ===== */
-.top-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-.top-button:hover {
-    transform: translateY(-2px);
-}
 /* 404 PAGINA */
 .error-container {
     text-align: center;
@@ -397,19 +383,19 @@ footer p {
     font-size: 8rem;
     margin: 0;
     text-shadow: 0 0 20px rgba(255,255,255,0.4);
-    color: white;
+    color: white !important;
 }
 
 .error-container h2 {
     margin-top: 10px;
     font-size: 2rem;
-    color: white;
+    color: white !important;
 }
 
 .error-container p {
     font-size: 1.2rem;
     margin: 20px 0 30px;
-    color: white;
+    color: white !important;
 }
 
 .home-button {
