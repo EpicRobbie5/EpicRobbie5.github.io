@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EpicRobbie Dashboard</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+    <script>
+    if (
+        localStorage.getItem("loggedIn")
+        !== "true"
+    ) {
+        location.href = "login.html";
+    }
+    </script>
 <body>
 
     <h1>🛩️ EpicRobbie Dashboard</h1>
@@ -18,6 +29,32 @@
         <a href="https://github.com">GitHub</a><br>
         <a href="https://flightradar24.com">Flightradar24</a>
     </div>
+    <footer>
+        <p>&copy; 2026 EpicRobbie5. Alle rechten voorbehouden.</p>
+        <p>Laatst bijgewerkt: <span id="lastUpdate"></span></p>
+    </footer>
+    <script>
+    function logout() {
+
+        localStorage.removeItem(
+            "loggedIn"
+        );
+
+        location.href = "login.html";
+    }
+    </script>
+    <script>
+        const datum = new Date(document.lastModified);
+
+        document.getElementById("lastUpdate").textContent =
+            datum.toLocaleString("nl-BE", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+                hour: "2-digit",
+                minute: "2-digit"
+            });
+    </script>
 
     <script>
         function updateClock() {
