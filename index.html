@@ -50,6 +50,42 @@
             </ul>
         </div>
     </div>
+    <script>
+        window.onload = function() {
+            document.getElementById("darkMode").checked =
+                localStorage.getItem("darkMode") === "true";
+
+            document.getElementById("username").value =
+                localStorage.getItem("username") || "";
+
+            applyTheme();
+        };
+
+        function saveSettings() {
+            localStorage.setItem(
+                "darkMode",
+                document.getElementById("darkMode").checked
+            );
+
+            localStorage.setItem(
+                "username",
+                document.getElementById("username").value
+            );
+
+            applyTheme();
+
+            document.getElementById("message").textContent =
+                "✅ Instellingen opgeslagen!";
+        }
+
+        function applyTheme() {
+            if (document.getElementById("darkMode").checked) {
+                document.body.classList.add("dark");
+            } else {
+                document.body.classList.remove("dark");
+            }
+        }
+    </script>
     <footer>
         <p>&copy; 2026 EpicRobbie5. Alle rechten voorbehouden.</p>
         <p>👀 Bezoekers: <span id="visits"></span></p>
