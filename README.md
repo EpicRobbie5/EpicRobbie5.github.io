@@ -17,25 +17,33 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 ## 📁 Project Structure
 ```
 EpicRobbie5.github.io/
-├── index.html           # Homepage
-├── vliegtuigen.html     # Aviation overview page
-├── boeing.html          # Boeing aircraft information
-├── airbus.html          # Airbus aircraft information
-├── concorde.html        # Concorde page
-├── wrightFlyer.html     # Wright Flyer page
-├── comparison.html      # Aircraft comparison page
-├── helikopters.html     # Helicopter information
-├── over-mij.html        # About me page
-├── contact.html         # Contact page
-├── login.html           # Login screen
-├── send.html            # Form submission page
-├── settings.html        # Settings
-├── style.css            # Main stylesheet
-├── favicon.png          # Favicon image
-├── plane.png            # Plane image for game
-├── CHANGELOG.md         # Project changelog
-├── SECURITY.md          # Security file
-└── README.md            # Project documentation
+├── .github/
+|     └── ISSUE_TEMPLATE
+|           ├── blank-template.md
+|           ├── bug-report.md
+|           └── feature_request.md
+├── index.html             # Homepage
+├── vliegtuigen.html       # Aviation overview page
+├── boeing.html            # Boeing aircraft information
+├── airbus.html            # Airbus aircraft information
+├── concorde.html          # Concorde page
+├── wrightFlyer.html       # Wright Flyer page
+├── comparison.html        # Aircraft comparison page
+├── helikopters.html       # Helicopter information
+├── over-mij.html          # About me page
+├── contact.html           # Contact page
+├── login.html             # Login screen
+├── send.html              # Form submission page
+├── style.css              # Main stylesheet
+├── favicon.png            # Favicon image
+├── plane.png              # Plane image for game
+├── CHANGELOG.md           # Project changelog
+├── SECURITY.md            # Security file
+├── AUTHOR.md              # Authors
+├── LICENSE.md             # Project license
+├── ROADMAP.md             # Coming up
+├── TODO.md                # Tasks to do
+└── README.md              # Project documentation
 ```
 ## 🌐 Pages
 
