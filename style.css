@@ -11,16 +11,16 @@ html, body {
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* 1. De Basis: Het diepste donkerblauw (Ocean Depth Blue) */
-    background-color: #05101a; 
+    background-color: #0d244a;
   
     /* 2. Meerdere Achtergrondlagen: */
     /* Laag 1: De Vignettering (een radiale gradiënt die de hoeken donkerder maakt voor focus) */
     /* Laag 2: De horizontale lijnen van het raster */
     /* Laag 3: De verticale lijnen van het raster */
     background-image: 
-        radial-gradient(circle at center, transparent 0%, rgba(5, 16, 26, 0.9) 100%),
-        linear-gradient(rgba(26, 59, 92, 0.3) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(26, 59, 92, 0.3) 1px, transparent 1px);
+        radial-gradient(circle at center, transparent 0%, rgba(13, 36, 74, 0.8) 100%),
+        linear-gradient(rgba(55, 105, 165, 0.4) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(55, 105, 165, 0.4) 1px, transparent 1px);
 
     /* 3. Rastergrootte: We maken het grid iets ruimer (50px) voor een strakke look */
     background-size: 100% 100%, 50px 50px, 50px 50px;
