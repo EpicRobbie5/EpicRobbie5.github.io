@@ -10,7 +10,11 @@ html, body {
     padding: 0;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #000022, #001144, #003399);
+    background: linear-gradient(90deg, #121212 21px, transparent 1%) center, 
+                linear-gradient(#121212 21px, transparent 1%) center, 
+                #ff007f;
+    background-size: 22px 22px; /* Maakt een perfect raster/grid */
+    animation: animatedBackground 20s linear infinite;
     color: #333;
     min-height: 100vh;
 }
@@ -643,6 +647,14 @@ footer p {
     to {
         opacity: 1;
     }
+}
+@keyframes animatedBackground {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 500px 500px;
+  }
 }
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
