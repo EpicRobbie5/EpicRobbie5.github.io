@@ -10,11 +10,27 @@ html, body {
     padding: 0;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(90deg, #121212 21px, transparent 1%) center, 
-                linear-gradient(#121212 21px, transparent 1%) center, 
-                #ff007f;
-    background-size: 22px 22px; /* Maakt een perfect raster/grid */
-    animation: animatedBackground 20s linear infinite;
+    /* 1. De Basis: Het diepste donkerblauw (Ocean Depth Blue) */
+    background-color: #05101a; 
+  
+    /* 2. Meerdere Achtergrondlagen: */
+    /* Laag 1: De Vignettering (een radiale gradiënt die de hoeken donkerder maakt voor focus) */
+    /* Laag 2: De horizontale lijnen van het raster */
+    /* Laag 3: De verticale lijnen van het raster */
+    background-image: 
+        radial-gradient(circle at center, transparent 0%, rgba(5, 16, 26, 0.9) 100%),
+        linear-gradient(rgba(26, 59, 92, 0.3) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(26, 59, 92, 0.3) 1px, transparent 1px);
+
+    /* 3. Rastergrootte: We maken het grid iets ruimer (50px) voor een strakke look */
+    background-size: 100% 100%, 50px 50px, 50px 50px;
+
+    /* 4. De Animatie koppelen: */
+    /* We gebruiken 60 seconden: dit moet heel subtiel en langzaam bewegen */
+    animation: deepTechDrift 60s linear infinite;
+  
+    /* Zorgt ervoor dat de achtergrond niet mee scrollt met de pagina */
+    background-attachment: fixed;
     color: #333;
     min-height: 100vh;
 }
@@ -649,12 +665,20 @@ footer p {
     }
 }
 @keyframes animatedBackground {
-  from {
-      background-position: 0 0;
-  }
-  to {
-      background-position: 500px 500px;
-  }
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 500px 500px;
+    }
+}
+@keyframes deepTechDrift {
+    from { 
+        background-position: center, 0 0, 0 0; 
+    }
+    to { 
+        background-position: center, 100px 100px, 100px 100px; 
+    }
 }
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
