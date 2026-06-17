@@ -18,7 +18,7 @@ A modern, responsive multi-page personal website built with HTML5 and CSS3, host
 ```
 EpicRobbie5.github.io/
 ├── .github/
-|     └── ISSUE_TEMPLATE
+|     └── ISSUE_TEMPLATE/
 |           ├── blank-template.md
 |           ├── bug-report.md
 |           └── feature_request.md
@@ -34,9 +34,12 @@ EpicRobbie5.github.io/
 ├── contact.html           # Contact page
 ├── login.html             # Login screen
 ├── send.html              # Form submission page
+├── aviation-explorer.html # World map with famous aircraft marked
 ├── style.css              # Main stylesheet
+├── aviation-explorer.js   # File for fully working markers on world map
 ├── favicon.png            # Favicon image
 ├── plane.png              # Plane image for game
+├── world-map.png          # World map picture used for 'aviation explorer.html'
 ├── CHANGELOG.md           # Project changelog
 ├── SECURITY.md            # Security file
 ├── AUTHOR.md              # Authors
@@ -81,10 +84,8 @@ Contact page featuring:
 ### Game
 A little game for fun. Do not touch the clouds!
 
-### Settings
-A little setting screen.
-- Dark mode toggle
-- Name
+### Dashboard
+Account dashboard with time, Fast links and Map link.
 
 ## 🎨 Design Highlights
 
@@ -132,14 +133,11 @@ This site is automatically deployed to GitHub Pages. Any changes pushed to the `
 ## 📝 Future Enhancements
 
 Consider adding:
-- [ ] JavaScript for form submission functionality
-- [ ] Backend service to handle contact form submissions
+- [x] JavaScript for form submission functionality
+- [x] Backend service to handle contact form submissions
 - [ ] Blog section with articles
 - [ ] Project showcase section
-- [ ] Dark mode toggle (Working on it...)
-- [ ] Additional pages for hobbies and interests
 - [ ] Image galleries
-- [ ] Social media integration
 - [ ] Different languages
 - [x] Helicopter Page
 
@@ -147,12 +145,8 @@ Consider adding:
 
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern styling with animations and gradients
-- **JavaScript** - Login coding
+- **JavaScript** - Login coding an world map
 - **GitHub Pages** - Free web hosting
-
-## 📄 License
-
-This project is open source and available for personal use.
 
 ## 👤 About the Developer
 
