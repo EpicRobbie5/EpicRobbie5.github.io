@@ -578,6 +578,23 @@ footer p {
 .marker:hover {
     transform: scale(1.3);
 }
+/* Kitty Hawk */
+.wright {
+    top: 35%;
+    left: 23%;
+}
+
+/* Toulouse */
+.airbus {
+    top: 30%;
+    left: 49%;
+}
+
+/* Seattle */
+.boeing {
+    top: 25%;
+    left: 15%;
+}
 /* ===== ANIMATIONS ===== */
 @keyframes fadeInDown {
     from {
