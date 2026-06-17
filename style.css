@@ -10,17 +10,20 @@ html, body {
     padding: 0;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* 1. De Basis: Het diepste donkerblauw (Ocean Depth Blue) */
-    background-color: #0d244a;
-    background-image: 
-        radial-gradient(circle at center, transparent 0%, rgba(13, 36, 74, 0.8) 100%),
-    /* 3. Rastergrootte: We maken het grid iets ruimer (50px) voor een strakke look */
-    background-size: 100% 100%, 50px 50px, 50px 50px;
-
-    /* 4. De Animatie koppelen: */
-    /* We gebruiken 60 seconden: dit moet heel subtiel en langzaam bewegen */
-    animation: deepTechDrift 10s linear infinite;
-  
+    /* 1. De Gradiënt: Een vloeiende mix van koninklijk donkerblauw en nachtblauw */
+    background: linear-gradient(
+        -45deg, 
+        #05101a, 
+        #0d244a, 
+        #1a3b5c, 
+        #0d244a
+    );  
+    /* 2. De Illusie: Maak de achtergrond 400% groter dan het venster */
+    background-size: 400% 400%;
+    /* 3. De Animatie: 15 seconden per cyclus, oneindig vloeiend (ease) */
+    animation: gradientDrift 15s ease infinite;
+    /* 4. Stabiliteit: Zorgt dat de achtergrond niet lelijk verspringt als je scrolt */
+    background-attachment: fixed;
     /* Zorgt ervoor dat de achtergrond niet mee scrollt met de pagina */
     background-attachment: fixed;
     color: #333;
@@ -664,12 +667,18 @@ footer p {
         background-position: 500px 500px;
     }
 }
-@keyframes deepTechDrift {
-    from { 
-        background-position: center, 0 0, 0 0; 
+@keyframes gradientDrift {
+    0% {
+        /* Startpunt: links in het midden */
+        background-position: 0% 50%;
     }
-    to { 
-        background-position: center, 100px 100px, 100px 100px; 
+    50% {
+        /* Halverwege: schuif de hele achtergrond naar rechts */
+        background-position: 100% 50%;
+    }
+    100% {
+        /* Eindpunt: glijd weer soepel terug naar het begin */
+        background-position: 0% 50%;
     }
 }
 /* ===== RESPONSIVE DESIGN ===== */
