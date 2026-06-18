@@ -34,12 +34,9 @@ EpicRobbie5.github.io/
 ├── contact.html           # Contact page
 ├── login.html             # Login screen
 ├── send.html              # Form submission page
-├── aviation-explorer.html # World map with famous aircraft marked
 ├── style.css              # Main stylesheet
-├── aviation-explorer.js   # File for fully working markers on world map
 ├── favicon.png            # Favicon image
 ├── plane.png              # Plane image for game
-├── world-map.png          # World map picture used for 'aviation explorer.html'
 ├── CHANGELOG.md           # Project changelog
 ├── SECURITY.md            # Security file
 ├── AUTHOR.md              # Authors
@@ -85,7 +82,7 @@ Contact page featuring:
 A little game for fun. Do not touch the clouds!
 
 ### Dashboard
-Account dashboard with time, Fast links and Map link.
+Account dashboard with time and Fast links.
 
 ## 🎨 Design Highlights
 
@@ -151,10 +148,6 @@ Consider adding:
 ## 👤 About the Developer
 
 **EpicRobbie5** - A web development enthusiast passionate about creating modern, responsive websites and learning new technologies in web design.
-
-## Project backup
-At least updated monthly:
-[website_backup.txt](https://github.com/user-attachments/files/29005670/website_backup.txt)
 
 ---
 
